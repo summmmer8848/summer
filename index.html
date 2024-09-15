@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>淮海潮主页</title>
+  <meta name="despription" contant="《淮海潮》编辑部">
+
+  <link rel="icon" href="assets/images/淮海潮定稿.svg" type="image/svg+xml">
+
+  <link rel="stylesheet" href="./assets/font/font.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <script src="./assets/js/minified/gsap.min.js"></script>
+  <script src="./assets/js/minified/CSSRulePlugin.min.js"></script>
+  <script src="./assets/js/minified/ScrollTrigger.min.js"></script>
+  <script src="./assets/js/minified/MotionPathPlugin.min.js"defer></script>
+
+</head>
+
+<body class="active" id="top">
+
+
+
+  <div class="btn" id="toggle-btn">
+    <div class="btn-outline btn-outline-1"></div>
+    <div class="btn-outline btn-outline-2"></div>
+    <div id="hamburger">
+      <span></span>
+    </div>
+  </div>
+
+
+  <div class="overlay hidden">
+    <svg viewBox="0 0 1000 1000">
+      <path d="M0 0S175 0 500 0s500 0 500 0V0H0Z"></path>
+    </svg>
+  </div>
+
+  <div class="menu">
+    <div class="primary-menu">
+      <div class="menu-container">
+        <div class="wrapper">
+          <div class="menu-item item1">
+            <a class="one" href="./novel.html"><span>I</span>微波狂澜</a>
+            <img src="./assets/images/luxun.jpg" width="250px" alt="">
+            <div class="menu-item-revealer"></div>
+          </div>
+
+          <div class="menu-item item2">
+            <a class="two" href="movie.html"><span>II</span>影像记忆</a>
+            <img src="./assets/images/jiaofu.jpg" width="400px" alt="">
+            <div class="menu-item-revealer"></div>
+          </div>
+
+          <div class="menu-item item3">
+            <a href="text.html"><span>III</span>《淮海潮》</a>
+            <div class="menu-item-revealer"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="secondary-menu">
+      <div class="menu-container">
+        <div class="wrapper">
+          <div class="menu-item">
+            <a href="#"></a>
+            <div class="menu-item-revealer"></div>
+          </div>
+
+          <div class="menu-item">
+            <a href="#"></a>
+            <div class="menu-item-revealer"></div>
+          </div>
+
+          <div class="menu-item">
+            <a href="#"></a>
+            <div class="menu-item-revealer"></div>
+          </div>
+        </div>
+
+        <div class="wrapper">
+          <div class="menu-item">
+            <a href="text.html">Read More</a>
+            <div class="menu-item-revealer"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <main>
+    <div class="hero">
+      <div class="logohuai">
+        HuaiHaiChao
+      </div>
+      <div class="logohuai">
+        《淮海潮》编辑部
+      </div>
+
+      <div class="sidebar">
+        <div class="sidebar-item">
+          <p id="header">Welcom <br />HUAIHAICHAO</p>
+          <p>文字是我们的禅宗，编辑是我们的修行 </p>
+          <p>（坚韧、认真、韧长）</p>
+        </div>
+        <div class="sidebar-item">
+          <p>淮海潮</p>
+          <p>HUAIHAICHAO</p>
+        </div>
+      </div>
+
+
+      <div class="slider">
+        <div class="slider-wrapper">
+          <div class="slide">
+            <a href="./magazine/Huai84.html">
+              <img src="./assets/images/Huai-84/1.webp" alt="《淮海潮》校刊第84期">
+            </a>
+          </div>
+          <div class="slide">
+            <a href="./magazine/Huai86.html">
+              <img src="./assets/images/Huai-86/1.webp" alt="《淮海潮》校刊第86期">
+            </a>
+          </div>
+          <div class="slide">
+            <a href="./magazine/Huai85.html">
+              <img src="./assets/images/Huai-85/1.webp" alt="《淮海潮》校刊第85期">
+            </a>
+          </div>
+          <div class="slide">
+            <a href="./magazine/Huai87.html">
+              <img src="assets/images/Huai-87/1.webp" alt="《淮海潮》校刊第87期">
+            </a>
+          </div>
+          <div class="slide">
+            <a href="./magazine/Huai88.html">
+              <img src="assets/images/Huai-88/1.webp" alt="《淮海潮》校刊第88期">
+            </a>
+          </div>
+          <div class="slide">
+            <a href="./magazine/Huai89.html">
+              <img src="assets/images/Huai-89/1.webp" alt="《淮海潮》校刊第89期">
+            </a>
+          </div>
+          <div class="slide">
+            <a href="./magazine/Huai83.html">
+              <img src="assets/images/Huai-83/1.webp" alt="《淮海潮》校刊第83期">
+            </a>
+          </div>
+          <div class="slide">
+            <a href="./magazine/Huai82.html">
+              <img src="assets/images/Huai-82/1.webp" alt="《淮海潮》校刊第82期">
+            </a>
+          </div>
+          <div class="slide">
+            <a href="./magazine/Huai81.html">
+              <img src="assets/images/Huai-81/1.webp" alt="《淮海潮》校刊第81期">
+            </a>
+          </div>
+
+
+          <div class="introduction">
+            <p class="reveal-type" data-bg-color="#022D42" data-fg-color="teal">
+              《淮海潮》是基于江苏海洋大学广大学生群体的校刊偏辑组织，旨在对校园内的实事热点进行报道、采访校园风云人物、传播校园正能量，丰富学生的校园文化生活，并定期出版校刊《准海潮》电子刊和官方小红书的推文。</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="gallery" data-scroll-container>
+
+
+      <section class="demo-text">
+        <div class="wrapper text">
+          HUAIHAICHAOHUAIHAICHAO
+        </div>
+      </section>
+
+
+
+      <disesection class="gellery-main " style="grid-template-columns: repeat(2, 2fr);padding:20px;gap: 200px;">
+        <div class="dengta">
+          <img src="./assets/images/dengta.png" width="500px" alt="">
+        </div>
+        <h1 class="floating ff7 titlelo">淮|海|潮</h1>
+      </disesection>
+
+
+
+
+
+
+      <section class="gellery-main">
+        <img class="floating ff1" src="assets/images/guang.jpg"  alt="">
+        <img class="floating ff4" src="assets/images/xiaoyuan.jpg"  alt="">
+
+        <p class="floating ff10">
+          在青春的校园里，我们用文字描绘着成长的轨迹，记录着每一份悸动与梦想。每一篇文章，都是青春的呼唤；每一个故事，都是校园的缩影。在这里，回忆与梦想交织，现实与理想碰撞。让我们一起，用文字记录下那段最美的时光，让青春不留遗憾。
+        </p>
+        <img class="floating ff4" src="assets/images/shuying.jpg"  alt="">
+      </section>
+
+      <section class="gellery-main">
+        <img class="floating ff2 reverse reverse1" src="assets/images/luxun.jpg"  alt="">
+        <p class="floating ff5">
+          "微波狂澜"是《淮海潮》中的一块独特天地，这里汇集了校园生活中动人心弦的小说作品。在"微波狂澜"里，平凡的校园生活因为青春的激情与梦想变得不再平凡。每一个微小的波澜，都可能引发一场情感的风暴；每一个细微的瞬间，都可能成为故事的转折点。
+        </p>
+        <img class="floating ff7 reverse " id="reverse2" src="assets/images/delfina.jpg"  alt="">
+        <p class="floating ff5">
+          在"水木明瑟"里，植物不再只是大自然的静物，而是拥有灵魂的生命。这里的每一篇散文，都是一次与自然的深度对话；每一个字句，都是对生命的致敬与赞美。我们用心去捕捉植物的生机，用笔去记录它们的四季变幻与生命旅程。</p>
+      </section>
+
+      <section class="two-up gellery-main">
+        <img class="floating ff2" src="assets/images/lou.jpg" height="720px" alt="">
+        <article class="floating reverse ff2">
+          <h2>稿件征集</h2>
+          <p>如果你有自己的青春故事、原创作品，或者是在网络微博 or 杂志摘选的优秀文章，作品形式，题材字数不限，小说、散文、书 ( 影 ) 评、微小说、哲理语句、经典碎片及打动人心的图片等，推荐作品请注明出处。</p>
+        </article>
+      </section>
+
+      <section class="demo-text">
+        <div class="wrapper text">
+          OAHCIAHIAUHOAHCIAHIAUH
+        </div>
+      </section>
+
+
+
+      <!-- 页脚设计 -->
+
+      <section id="s1">
+
+        <h2>更多精彩内容</h2>
+        <a href="text.html" class="cta">
+          <span>Read more</span>
+          <svg width="13px" height="10px" viewBox="0 0 13 10">
+            <path d="M1,5 L11,5"></path>
+            <polyline points="8 1 12 5 8 9"></polyline>
+          </svg>
+        </a>
+
+
+      </section>
+
+      <svg class="svgpto" xmlns="http://www.w3.org/2000/svg" fill="#1d0042" stroke="#1d0042" stroke-width="1.8"
+        viewBox="10 0 970 200">
+        <defs>
+          <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#ffecd2;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#fcb69f;stop-opacity:1" />
+          </linearGradient>
+
+
+          <linearGradient id="grad2" gradientTransform="rotate(120)">
+            <stop offset="0%" style="stop-color:#fccb90;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#d57eeb;stop-opacity:1" />
+          </linearGradient>
+        </defs>
+
+
+        <g class="ring3">
+          <path d="M543.5 60.6C269.8 27.7 1 26.8 1 64.2v386h998v-278c0-27.4-181.8-78.7-455.5-111.6z" fill="##764ba2" />
+
+          <rect mask="url(#m1)" y="35" width="999" height="170" fill="url(#grad1)" />
+          <mask id="m1" fill="#ffffff">
+            <path
+              d="M999,172c0,32.9-240.3,39.3-514,6.4S1,98.2,1,64c0-37.4,268.8-36.5,542.5-3.6S999,144.6,999,172z M520,64.6 c-193.6-24.6-409.4-26.4-410,5s167.8,65.7,361.4,90.3s421.1,27.9,421.7-3.6S713.6,89.2,520,64.6z" />
+          </mask>
+        </g>
+
+        <g id="b2">
+          <ellipse cx="933.8" cy="172.6" rx="7" ry="46" transform="rotate(-83.812 933.77606 172.57357)" />
+          <mask id="m6" fill="#fff" stroke-width="1">
+            <circle id="c2" cx="899.2" cy="144.2" r="27.2" />
+          </mask>
+          <use fill="#DAC9A6" href="#c2" />
+          <circle mask="url(#m6)" cx="917.8" cy="162.8" r="27.2" opacity="0.7" />
+        </g>
+        <use href="#b2" x="-853" y="-84" transform="scale(0.87)" />
+
+        <g mask="url(#m4)">
+          <g class="ring2">
+            <path fill="#F2FFBD"
+              d="M217 70c0-18.3 128.9-37.2 283.9-38.8C655.8 29.6 782 42.1 782 58M217 70v260h565V58" />
+            <rect x="646" y="64" width="125" height="127" />
+            <path fill='##764ba2'
+              d="M782 58c0 19-135.6 40-290.5 41.5S217 89.8 217 70c0-18.3 128.9-37.2 283.9-38.8C655.8 29.6 782 42.1 782 58z" />
+            <rect mask="url(#m2)" width="565" height="69" x="217" y="31" fill="url(#grad2)" />
+            <g class="mg-back"></g>
+            <mask id="m2" fill="#ffffff">
+              <path
+                d="M782 58c0 19-135.6 40-290.5 41.5S217 89.8 217 70c0-18.3 128.9-37.2 283.9-38.8C655.8 29.6 782 42.1 782 58zM508.1 36.3c-86.4 0-182.8 11.2-183 25-.3 13.8 74.9 19.5 161.3 19.5s188-11.2 188.2-25-80-19.5-166.5-19.5z" />
+            </mask>
+            <mask id="m4" fill="#ffffff">
+              <path d="M110 69.7c-.6 31.5 167.8 65.7 361.4 90.3s421.1 27.9 421.7-3.6L893 0H109l1 69.7z" />
+            </mask>
+
+
+            <g mask="url(#m3)">
+              <g class="ring1">
+                <path fill="#F2FFBD" d="M415 8.8C415 3 454.3-1 501.7 1S588 9 588 14M415 8.8V90h173V14" />
+                <rect x="536" y="14" width="45" height="70" fill='##764ba2' />
+                <path fill="#F1EFE9"
+                  d="M588 14c0 6-41.7 10.4-89.1 8.4S415 15 415 8.8C415 3 454.3-1 501.7 1S588 9 588 14z" />
+                <path d="M501 4c-16.6 0-35 2-35 4.5s14.4 3.5 31 3.5 36-1.5 36-4-15.4-4-32-4z" />
+                <mask id="m3" fill="#ffffff">
+                  <path d="M674.7,55.7c-0.3,13.8-101.8,25-188.2,25s-161.6-5.6-161.3-19.5L325-0.5h349L674.7,55.7z" />
+                </mask>
+              </g>
+            </g>
+
+            <g class="mg-front">
+              <g id="b1">
+                <ellipse cx="734" cy="61" rx="33" ry="4" opacity="0.8" />
+                <mask id="m5" fill="#ffffff" stroke-width="1">
+                  <circle id="c1" cx="709" cy="42" r="20" />
+                </mask>
+                <use fill="#F1EFE9" href="#c1" />
+                <g mask="url(#m5)">
+                  <circle id="b1-dark" cx="724" cy="56" r="20" opacity="0.5" />
+                </g>
+              </g>
+            </g>
+            <path id="b1Path" fill="none" stroke="none" d="M693.8,23.9C693.5,37.4,597,54,462.5,54C296,54,250,43.7,250.2,30.3C250.5,16.8,369,3,487.2,3
+                      C606,3,694,10.4,693.8,23.9z" />
+          </g>
+        </g>
+
+      </svg>
+
+      <footer class="footer" id="s2">
+        <div class="footer-container">
+
+          <!-- 投稿方式 -->
+          <div class="footer-section">
+            <h3>投稿方式</h3>
+            <p>如果您有任何原创作品，欢迎投稿至以下地址：</p>
+            <a href="https://mail.qq.com/" rel="noreferrer" target="_blank" class="underline"><strong>邮箱:</strong>
+              <span>101074526@qq.com</span><svg viewBox="0 0 13 20">
+                <polyline points="0.5 19.5 3 19.5 12.5 10 3 0.5" />
+              </svg>
+            </a>
+          </div>
+
+          <!-- 内容版块 -->
+          <div class="footer-section">
+            <h3>内容版块</h3>
+            <ul class="footer-list">
+
+              <li><a href="novel.html" class="underline">
+                  <span>微波狂澜</span><svg viewBox="0 0 13 20">
+                    <polyline points="0.5 19.5 3 19.5 12.5 10 3 0.5" />
+                  </svg>
+                </a>
+              </li>
+
+              <li>
+                <a href="movie.html" class="underline">
+                  <span>影像记忆</span><svg viewBox="0 0 13 20">
+                    <polyline points="0.5 19.5 3 19.5 12.5 10 3 0.5" />
+                  </svg>
+                </a>
+              </li>
+
+              <li>
+                <a href="text.html" class="underline">
+                  <span>阅读更多</span><svg viewBox="0 0 13 20">
+                    <polyline points="0.5 19.5 3 19.5 12.5 10 3 0.5" />
+                  </svg>
+                </a>
+              </li>
+
+            </ul>
+          </div>
+
+          <!-- 其他平台 -->
+          <div class="footer-section">
+            <h3>其他平台</h3>
+            <p>您还可以在以下平台找到我们：</p>
+            <ul class="footer-list">
+              <li><a href="https://www.xiaohongshu.com/user/profile/6111da110000000001003229" rel="noreferrer"
+                  target="_blank" class="underline">
+                  <span>小红书</span><svg viewBox="0 0 13 20">
+                    <polyline points="0.5 19.5 3 19.5 12.5 10 3 0.5" />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+        <div class="footer-bottom">
+          <div class="footer-beian">
+            <img src="./assets/images/备案图标.png" width="20px" height="20px" alt="">
+            <span><a href="https://beian.mps.gov.cn/#/query/webSearch?code=32058102002286" rel="noreferrer"
+                target="_blank">苏公网安备32058102002286</a></span>
+            <span><a class="icp" href="https://beian.miit.gov.cn/#/Integrated/index" rel="noreferrer"
+                target="_blank">皖ICP备2024057108号</a></span>
+          </div>
+        </div>
+      </footer>
+
+  </main>
+
+
+  </main>
+  <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>
