@@ -1,0 +1,154 @@
+/*-----------------------------------*\
+  #style.css
+\*-----------------------------------*/
+
+/**
+ * copyright 2022 codewithsadee
+ */
+
+
+
+/**
+ * RECOLETA FONT
+ */
+
+@font-face {
+  font-family: 'Recoleta';
+  src: local('Recoleta Light'), local('Recoleta-Light'),
+      url('./recoleta/Recoleta-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recoleta';
+  src: local('Recoleta Regular'), local('Recoleta-Regular'),
+      url('./recoleta/Recoleta-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+/**
+ * GORDITA FONT
+ */
+
+@font-face {
+  font-family: 'Gordita';
+  src: local('Gordita Light'), local('Gordita-Light'),
+      url('./gordita/Gordita-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gordita';
+  src: local('Gordita Regular'), local('Gordita-Regular'),
+      url('./gordita/Gordita-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gordita';
+  src: local('Gordita Italic'), local('Gordita-Italic'),
+      url('./gordita/Gordita-Italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gordita';
+  src: local('Gordita Medium'), local('Gordita-Medium'),
+      url('./gordita/Gordita-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 在线链接服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
+@font-face {
+  font-family: '仓耳渔阳体 W05';
+  src: local('K61ajTzK5MsA'), local('Gordita-Medium'),
+      url('./zongwe/K61ajTzK5MsA.woff2') format('woff2');
+
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: '阿里妈妈东方大楷_REGULAR';
+  src: local('3z56r-zjg1v'),local('Gordita-Medium'),
+      url('./zongwe/3z56r-zjg1v.woff') format('woff');
+
+  font-style: normal;
+  font-display: normal;
+}
+
+
+@font-face {
+  font-family:"tenez";
+  src:url("https://use.typekit.net/af/41439a/00000000000000003b9b0ac2/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3") format("woff2"),url("https://use.typekit.net/af/41439a/00000000000000003b9b0ac2/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3") format("woff"),url("https://use.typekit.net/af/41439a/00000000000000003b9b0ac2/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3") format("opentype");
+  font-display:auto;font-style:normal;font-weight:900;font-stretch:normal;
+  }
+
+  
+  @font-face {
+    font-family: 'luxun';
+    src: local('luxun'),local('Gordita-Medium'),
+        url('./zongwe/luxun.woff') format('woff');
+  
+    font-style: normal;
+    font-display: normal;
+  }
+  
+    
+  @font-face {
+    font-family: 'FZYanCYHJW';
+    src: local('FZYanCYHJW'),local('Gordita-Medium'),
+        url('./zongwe/FZYanCYHJW.woff') format('woff');
+  
+    font-style: normal;
+    font-display: normal;
+  }
+  
+  @font-face {
+    font-family: 'number';
+    src: local('number'),local('Gordita-Medium'),
+        url('./zongwe/number.woff') format('woff');
+  
+    font-style: normal;
+    font-display: normal;
+  }
+
+  @font-face {
+    font-family: 'song';
+    src: local('FlyFlowerSong'),
+        url('./zongwe/song.woff') format('woff');
+  
+    font-style: normal;
+    font-display: normal;
+  }
+  
+  @font-face {
+    font-family: 'qingke';
+    src: url('./zongwe/qingke.woff') format('woff');
+     
+    font-style: normal;
+    font-display: normal;
+  }
+  
+  @font-face {
+    font-family: 'Adobesong';
+    src: url('./zongwe/AdobeSong.woff') format('woff');
+     
+    font-style: normal;
+    font-display: normal;
+  }
+  

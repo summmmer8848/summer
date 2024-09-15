@@ -1,0 +1,100 @@
+body {
+    font-family: '宋体', serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.iconhome{
+    position: absolute;
+    padding: 20px 0 0 20px ;
+}
+.novel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.novel-content {
+    background-color: #fff;
+    padding: 20px 40px;
+    max-width: 800px;
+    min-width: 400px; /* 确保最小宽度 */
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    text-align: left; /* 确保文本从左侧对齐 */
+}
+
+.novel-content p {
+    letter-spacing: .1em;
+    font-weight: 300;
+    font-family: "Microsoft YaHei", "微软雅黑", sans-serif;
+    font-size: 18px;
+    line-height: 1.8;
+    text-indent: 2em; /* 段首缩进 */
+    margin: 0 0 15px 0;  /* 段落之间的间距 */
+}
+
+.novel-content h1 {
+    font-weight: 400;
+    font-family: 'qingke';
+    font-size: clamp(18px, 8vw,38px);
+    text-align: center;
+    margin-bottom: 5px; /* 调整标题与作者名之间的距离 */
+}
+.novel-content .juzhong{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap
+}
+
+.novel-content .author-name {
+    text-align-right: right; /* 右对齐 */
+    font-size: 18px;
+    text-align: right;
+    margin-top: 0; /* 消除作者名上方的间距 */
+    margin-bottom: 20px;
+    padding-right: 40px; /* 控制作者名字与右侧的距离 */
+    color: #555;
+}
+.novel-content h3 {
+    text-align: center;
+    font-weight: 400;
+    font-family: 'qingke';
+    font-size: 20px;
+    text-align: center;
+    margin: 30px 0 10px 0; 
+}
+.novel-content .tiji{
+    text-align: right;
+    text-align-last: right;
+}
+
+.novel-container a {
+    display: block;
+    width: 100%;
+    color: inherit;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .novel-content {
+        padding: 15px;
+        max-width: 100%; /* 适应小屏幕 */
+    }
+
+
+    .author-name {
+        font-size: 16px;
+        padding-right: 30px;
+    }
+
+    .novel-content p {
+        font-size: 16px;
+    }
+}

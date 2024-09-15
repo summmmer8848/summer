@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>影像记忆</title>
+
+    <link rel="stylesheet" href="./assets/font/font.css">
+    <link rel="stylesheet" href="./assets/css/novel.css">
+    <script src="./assets/js/moviedata.js"></script>
+
+
+    <style>
+        .novel-content {
+            padding: 40px;
+        }
+
+        .novel-content p {
+            text-align: justify;
+            text-align-last: left;
+        }
+
+        .novel-content .author-name {
+            text-align-last: right;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="iconhome">
+        <a href="javascript:void(0);" id="homeButton">
+            <svg class="icon" width="40px" height="40.00px" viewBox="0 0 1024 1024" version="1.1"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M1004.836571 955.245714s-10.093714 25.892571-23.405714 0c0 0-149.430857-450.706286-513.536-337.188571v139.922286s-5.851429 82.285714-77.604571 28.672L32.475429 477.622857s-75.922286-41.252571 4.534857-97.865143L398.848 68.900571s54.418286-38.765714 67.584 24.868572l0.438857 150.893714c-0.146286 0.146286 678.473143 32.694857 537.965714 710.656z"
+                    fill="#000000" fill-opacity=".65" />
+            </svg>
+        </a>
+    </div>
+    <div class="novel-container">
+        <div class="novel-content">
+            <h1 class="title"></h1>
+            <p class="author-name"></p>
+            <div class="text"></div>
+        </div>
+    </div>
+
+
+
+    <script>
+        console.log('Initial Page:', sessionStorage.getItem('initialPage'));
+
+        document.getElementById('homeButton').addEventListener('click', function () {
+            if (document.referrer !== null && document.referrer !== window.location.href) {
+                // 如果有上一页并且上一页不是当前页
+                window.history.back();
+            } else {
+                // 如果没有上一页或者上一页就是当前页，跳转到指定页面
+                window.location.href = 'novel.html';
+            }
+        });
+        var id = window.location.href.split('?')[1];
+        var title = document.querySelector('.title');
+        var author = document.querySelector('.author-name');
+        var text = document.querySelector('.text');
+        title.innerHTML = moviedata[id].title;
+        author.innerHTML = moviedata[id].author;
+        text.innerHTML = moviedata[id].text;
+
+    </script>
+</body>
+
+
+</html>
